@@ -1,0 +1,12 @@
+- route:
+    id: route-5b97
+    nodePrefixId: route-dda
+    from:
+      id: from-33f0
+      uri: kamelet:timer-source
+      parameters:
+        message: hello
+      steps:
+        - to:
+            id: to-ecef
+            uri: kamelet:log-action
