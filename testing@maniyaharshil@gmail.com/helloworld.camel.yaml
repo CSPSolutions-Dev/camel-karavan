@@ -1,1 +1,6 @@
-[]
+- route:
+    id: route-20fe
+    nodePrefixId: route-04f
+    from:
+      id: from-8bf6
+      uri: kamelet:mysql-source
