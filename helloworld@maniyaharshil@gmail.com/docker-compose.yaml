@@ -1,8 +1,0 @@
-services:
-  helloworld@maniyaharshil@gmail.com:
-    image: helloworld@maniyaharshil@gmail.com
-    restart: always
-    ports:
-      - "8082:8080"
-    networks:
-      - karavan
