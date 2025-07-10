@@ -1,8 +1,0 @@
-services:
-  cleaner@maniyaharshil@gmail.com:
-    image: cleaner@maniyaharshil@gmail.com
-    restart: always
-    ports:
-      - "8083:8080"
-    networks:
-      - karavan
