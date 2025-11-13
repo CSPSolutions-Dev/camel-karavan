@@ -13,3 +13,5 @@
         - to:
             id: to-ead5
             uri: google-calendar
+            parameters:
+              apiName: CHANNELS
