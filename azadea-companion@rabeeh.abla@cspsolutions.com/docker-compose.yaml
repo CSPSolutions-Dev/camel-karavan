@@ -1,0 +1,8 @@
+services:
+  azadea-companion@rabeeh.abla@cspsolutions.com:
+    image: azadea-companion@rabeeh.abla@cspsolutions.com
+    restart: always
+    ports:
+      - "8082:8080"
+    networks:
+      - karavan
