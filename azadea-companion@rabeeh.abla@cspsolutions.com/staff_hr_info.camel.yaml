@@ -15,3 +15,6 @@
             uri: google-calendar
             parameters:
               apiName: CHANNELS
+        - to:
+            id: to-b5e6
+            uri: lucene
