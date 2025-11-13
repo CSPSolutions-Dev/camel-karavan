@@ -1,0 +1,12 @@
+- route:
+    id: route-6697
+    nodePrefixId: route-2f2
+    from:
+      id: from-6b7c
+      uri: kamelet:oracle-database-source
+      steps:
+        - transform:
+            id: transform-ca56
+            expression:
+              groovy:
+                id: groovy-4be5
