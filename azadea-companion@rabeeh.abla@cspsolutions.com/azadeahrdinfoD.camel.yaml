@@ -7,3 +7,5 @@
       uri: rest
       parameters:
         method: get
+        path: >-
+          https://api.open-meteo.com/v1/forecast?latitude=40.7&longitude=-74.0&hourly=temperature_2m
