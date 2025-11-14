@@ -13,3 +13,5 @@
         - to:
             id: to-2864
             uri: log
+            parameters:
+              loggerName: View Weather
