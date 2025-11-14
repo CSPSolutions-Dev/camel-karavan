@@ -3,6 +3,7 @@
     nodePrefixId: route-23f
     from:
       id: from-31b7
+      description: Weather
       uri: rest
       parameters:
         method: get
