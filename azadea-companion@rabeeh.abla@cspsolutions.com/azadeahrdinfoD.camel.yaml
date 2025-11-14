@@ -1,0 +1,6 @@
+- route:
+    id: route-0434
+    nodePrefixId: route-6e0
+    from:
+      id: from-4a12
+      uri: rest-api
