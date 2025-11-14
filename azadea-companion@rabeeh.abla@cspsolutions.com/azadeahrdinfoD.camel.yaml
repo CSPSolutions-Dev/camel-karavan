@@ -1,0 +1,17 @@
+- route:
+    id: route-1618
+    nodePrefixId: route-23f
+    from:
+      id: from-31b7
+      description: Weather
+      uri: rest
+      parameters:
+        method: get
+        path: >-
+          https://api.open-meteo.com/v1/forecast?latitude=40.7&longitude=-74.0&hourly=temperature_2m
+      steps:
+        - to:
+            id: to-2864
+            uri: log
+            parameters:
+              loggerName: View Weather
