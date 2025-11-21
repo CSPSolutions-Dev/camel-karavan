@@ -1,6 +1,1 @@
-- route:
-    id: route-eec9
-    nodePrefixId: route-ec2
-    from:
-      id: from-18d9
-      uri: amqp
+[]
