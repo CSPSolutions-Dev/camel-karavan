@@ -1,1 +1,6 @@
-[]
+- route:
+    id: route-9a51
+    nodePrefixId: route-7ba
+    from:
+      id: from-718a
+      uri: lumberjack
