@@ -1,0 +1,8 @@
+- beans:
+    - name: MySqlDatabase
+      type: "#class:org.apache.commons.dbcp2.BasicDataSource"
+      properties:
+        username: username
+        password: password
+        url: jdbc:mysql://serverName:serverPort/databaseName
+        driverClassName: com.mysql.cj.jdbc.Driver
