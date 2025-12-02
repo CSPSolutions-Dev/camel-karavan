@@ -1,0 +1,8 @@
+services:
+  test-project:
+    image: test-project
+    restart: always
+    ports:
+      - "8084:8080"
+    networks:
+      - karavan
