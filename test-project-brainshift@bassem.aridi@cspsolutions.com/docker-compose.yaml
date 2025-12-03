@@ -1,0 +1,8 @@
+services:
+  test-project-brainshift@bassem.aridi@cspsolutions.com:
+    image: test-project-brainshift@bassem.aridi@cspsolutions.com
+    restart: always
+    ports:
+      - "8086:8080"
+    networks:
+      - karavan
