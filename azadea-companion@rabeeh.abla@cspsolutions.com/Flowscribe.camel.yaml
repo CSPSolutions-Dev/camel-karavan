@@ -1,0 +1,20 @@
+- restConfiguration:
+    component: platform-http
+    scheme: https://api.brainshift.ai/swagger/index.html
+- rest:
+    id: rest-0034
+    get:
+      - id: get-ee8c
+        to: https://api.brainshift.ai/api/AIAgentsService/GetAgentTypes
+- route:
+    id: route-a7ab
+    nodePrefixId: route-22e
+    from:
+      id: from-105f
+      uri: activemq6
+- route:
+    id: route-3f18
+    nodePrefixId: route-b3b
+    from:
+      id: from-3f21
+      uri: aws-cloudtrail

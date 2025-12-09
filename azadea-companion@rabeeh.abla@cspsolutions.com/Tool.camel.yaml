@@ -1,14 +1,1 @@
-- route:
-    id: route-5a2d
-    nodePrefixId: route-ec2
-    from:
-      id: from-755d
-      uri: google-calendar
-      parameters:
-        apiName: EVENTS
-      steps:
-        - to:
-            id: to-8e67
-            uri: activemq6
-- beans:
-    - {}
+[]
