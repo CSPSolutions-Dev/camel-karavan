@@ -1,1 +1,6 @@
-[]
+- route:
+    id: route-92fa
+    nodePrefixId: route-0d3
+    from:
+      id: from-45f8
+      uri: timer
