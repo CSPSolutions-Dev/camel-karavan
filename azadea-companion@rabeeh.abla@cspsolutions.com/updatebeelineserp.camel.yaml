@@ -1,0 +1,6 @@
+- route:
+    id: route-2efa
+    nodePrefixId: route-b71
+    from:
+      id: from-005a
+      uri: kamelet:http-source
