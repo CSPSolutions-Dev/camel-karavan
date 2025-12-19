@@ -1,1 +1,7 @@
-[]
+- route:
+    id: route-89ae
+    nodePrefixId: route-e00
+    from:
+      id: from-84c9
+      description: "{{env:ENV_NAME}}"
+      uri: kamelet:aws-ddb-streams-source
