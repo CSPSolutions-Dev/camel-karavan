@@ -1,0 +1,62 @@
+- restConfiguration:
+    component: undertow
+    host: 0.0.0.0
+    port: 8081
+    bindingMode: json
+- route:
+    id: entry-point
+    from:
+      id: from-2674
+      uri: rest
+      parameters:
+        method: post
+        path: ":"
+        uriTemplate: /execute
+      steps:
+        - log:
+            id: log-fdb5
+            message: "Incoming request: ${body}"
+        - toD:
+            id: toD-8e5c
+            uri: direct:auth-validate
+        - unmarshal:
+            id: unmarshal-3967
+            json:
+              id: json-30e3
+        - setHeader:
+            id: setHeader-2198
+            name: routeId
+            expression:
+              simple:
+                id: simple-80fe
+                expression: ${body[route][routeId]}
+        - setHeader:
+            id: setHeader-d29f
+            name: dynamicInput
+            expression:
+              simple:
+                id: simple-782c
+                expression: ${body[route][dynamicInput]}
+        - process:
+            id: process-db50
+            ref: routeParameterValidatorProcessor
+        - setProperty:
+            id: setProperty-7e32
+            name: targetRoute
+            expression:
+              simple:
+                id: simple-64ea
+                expression: ${body[route][routeId]}
+        - setBody:
+            id: setBody-4d7a
+            expression:
+              simple:
+                id: simple-9262
+                expression: ${header.validatedParameters}
+        - toD:
+            id: toD-8330
+            uri: direct:${exchangeProperty.targetRoute}
+        - marshal:
+            id: marshal-847c
+            json:
+              id: json-2853
