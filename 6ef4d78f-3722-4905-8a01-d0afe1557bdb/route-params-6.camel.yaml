@@ -1,0 +1,16 @@
+- route:
+    id: fe15638d-4d6e-467c-a78d-9f00a8c71b8c
+    description: route-params-6 - test passign parameters with 3
+    from:
+      id: from-f9aa
+      uri: direct
+      parameters:
+        name: route-params-6
+    metadata:
+      parameters:
+        - name: EmployeeId
+          type: Integer
+          required: true
+        - name: startDate
+          type: Date
+          required: false
