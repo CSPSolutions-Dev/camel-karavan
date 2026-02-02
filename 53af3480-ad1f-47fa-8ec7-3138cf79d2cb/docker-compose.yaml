@@ -1,8 +1,0 @@
-services:
-  53af3480-ad1f-47fa-8ec7-3138cf79d2cb:
-    image: 53af3480-ad1f-47fa-8ec7-3138cf79d2cb
-    restart: always
-    ports:
-      - "8095:8080"
-    networks:
-      - karavan
