@@ -1,15 +1,3 @@
-- rest:
-    id: rest-858c
-    post:
-      - id: post-2878
-- routeTemplate:
-    id: routeTemplate-f69c
-    route:
-      id: route-eb11
-      nodePrefixId: route-eae
-      from:
-        id: from-3777
-        uri: smtp
 - route:
     id: fe15638d-4d6e-467c-a78d-9f00a8c71b8c
     description: route-params-6 - test passign parameters with 3
@@ -30,12 +18,3 @@
         - name: startDate
           type: Date
           required: false
-- route:
-    id: route-1fa2
-    nodePrefixId: route-e36
-    from:
-      id: from-942a
-      uri: activemq6
-- beans:
-    - {}
-- routeConfiguration: {}
