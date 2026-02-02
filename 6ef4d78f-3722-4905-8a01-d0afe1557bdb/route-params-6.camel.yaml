@@ -6,6 +6,10 @@
       uri: direct
       parameters:
         name: route-params-6
+      steps:
+        - to:
+            id: to-a778
+            uri: log
     metadata:
       parameters:
         - name: EmployeeId
