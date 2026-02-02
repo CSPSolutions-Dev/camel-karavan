@@ -1,0 +1,8 @@
+services:
+  6f9711e3-4ab3-4d2a-8232-79b9006794d0:
+    image: 6f9711e3-4ab3-4d2a-8232-79b9006794d0
+    restart: always
+    ports:
+      - "8096:8080"
+    networks:
+      - karavan
