@@ -1,0 +1,8 @@
+- route:
+    id: d1d37b92-18ef-43b2-be4c-44d454bfbd5e
+    description: Heristo111_route - default route for project
+    from:
+      id: from-e240
+      uri: direct
+      parameters:
+        name: Heristo111_route
