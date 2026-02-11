@@ -1,0 +1,8 @@
+services:
+  0779abb8-d706-4513-8bd3-1434cb4aa1e0:
+    image: 0779abb8-d706-4513-8bd3-1434cb4aa1e0
+    restart: always
+    ports:
+      - "8098:8080"
+    networks:
+      - karavan
