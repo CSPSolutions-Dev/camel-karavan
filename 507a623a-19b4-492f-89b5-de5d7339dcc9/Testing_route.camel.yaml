@@ -2,4 +2,9 @@
     id: 6979be80-8dfa-4614-9844-fd5ab40db179
     description: Testing_route - default route for project
     from:
-      uri: direct:Testing_route
+      id: from-5605
+      uri: direct
+      parameters:
+        name: Testing_route
+- beans:
+    - {}
