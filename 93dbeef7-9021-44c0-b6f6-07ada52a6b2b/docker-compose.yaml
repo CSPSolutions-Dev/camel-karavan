@@ -1,0 +1,8 @@
+services:
+  93dbeef7-9021-44c0-b6f6-07ada52a6b2b:
+    image: 93dbeef7-9021-44c0-b6f6-07ada52a6b2b
+    restart: always
+    ports:
+      - "8122:8080"
+    networks:
+      - karavan

@@ -1,0 +1,6 @@
+- route:
+    id: 960051e1-4c7b-4132-8ada-47eb685ae6a1
+    description: test11_route - default route for project
+    from:
+      id: from-95ae
+      uri: direct
