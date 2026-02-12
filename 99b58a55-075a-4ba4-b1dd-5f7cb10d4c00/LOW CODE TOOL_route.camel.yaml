@@ -1,0 +1,8 @@
+- route:
+    id: 2fb4cbe7-5905-4f02-b463-56c879ecb6ca
+    description: LOW CODE TOOL_route - default route for project
+    from:
+      id: from-d4f3
+      uri: direct
+      parameters:
+        name: LOW CODE TOOL_route
